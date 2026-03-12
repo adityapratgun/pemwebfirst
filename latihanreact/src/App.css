@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #5c5f63; /* Grayish background like the photo */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.card {
+  background-color: #deebf7; /* Light blueish background for cards */
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 20px;
+  color: #ceec09;
+  box-shadow: 0 4px 12px rgba(4, 8, 239, 0.2);
+}
+
+.card-title {
+  color: #8bb6d6;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.counter-text, .greeting-text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.btn-blue {
+  background-color: #05660c;
+  color: rgb(17, 171, 174);
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.styled-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  margin-top: 10px;
+  outline: none;
+}
+
+.styled-input:focus {
+  border-color: #5bacee;
+}
+
+strong {
+  font-weight: bold;
+}
